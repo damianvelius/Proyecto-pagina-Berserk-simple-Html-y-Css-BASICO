@@ -1,0 +1,109 @@
+body {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  background-color: rgb(150, 114, 114);
+  padding: 0;
+  margin: 0;
+}
+
+header {
+  text-align: center;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: rgb(129, 35, 35);
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  text-align: center;
+  padding: 12px 10px;
+  text-decoration: none;
+  margin-bottom: px;
+  color: #111;
+}
+
+li a:hover:not(.activate) {
+  color: rgb(129, 35, 35);
+  background-color: #111;
+  border-radius: 20px;
+}
+
+.activate {
+  background-color: #111;
+  color: rgb(129, 35, 35);
+  border-radius: 20px;
+}
+
+h1 {
+  background-color: #111;
+  padding: 0;
+  margin: 0;
+  color: rgb(129, 35, 35);
+}
+
+h2 {
+  padding: 20px 16px;
+  margin: 0px 0px;
+  color: #111;
+}
+
+hr {
+  border: 1px solid black;
+}
+
+.container {
+  max-width: 100%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+p {
+  font-size: 18px;
+  line-height: 1.4;
+  margin-bottom: 20px;
+}
+
+.image1 {
+  float: right;
+  margin: 20px 20px;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  max-width: 25%;
+  max-height: 25%;
+}
+.image2 {
+  float: left;
+  margin: 20px 20px;
+  height: auto;
+  width: auto;
+  border-radius: 20px;
+  max-width: 25%;
+  max-height: 25%;
+}
+
+.article {
+  float: left;
+  width: 70%;
+  background-color: #fff;
+  padding: 10px;
+  margin: 10px;
+  border: 1px solid #ccc;
+}
+
+.footer {
+  background-color: #111;
+  color: rgb(129, 35, 35);
+  padding: 1px;
+  text-align: center;
+  clear: both;
+}

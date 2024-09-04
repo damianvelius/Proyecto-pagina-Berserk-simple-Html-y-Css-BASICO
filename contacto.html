@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="shortcut icon"
+      href="./assets/imgs/berserkIcono.png"
+      type="image/x-icon"
+    />
+    <link rel="stylesheet" href="./css/contacto.css" />
+    <title>Blog Berserk</title>
+  </head>
+  <body>
+    <header>
+      <h1>B e r s e r k</h1>
+      <nav>
+        <ul>
+          <li>
+            <a href="index.html">Home</a>
+          </li>
+          <li>
+            <a href="personajes.html">Personajes</a>
+          </li>
+          <li>
+            <a href="audiovisuales.html">Audiovisuales</a>
+          </li>
+          <li>
+            <a class="activate" href="contacto.html">Contacto</a>
+          </li>
+        </ul>
+      </nav>
+    </header>
+    <div class="contenedor-formulario">
+      <form>
+        <label for="nombre">Nombre: </label>
+        <input
+          type="text"
+          id="nombre"
+          placeholder="Escribir tu Nombre"
+          required
+          required
+          minlength="3"
+        />
+        <label for="apellido">Apellido: </label>
+        <input
+          type="text"
+          id="apellido"
+          placeholder="Escribir tu Apellido"
+          required
+          required
+          minlength="3"
+        />
+        <label for="mail">Email: </label>
+        <input type="mail" id="mail" placeholder="Escribir tu Email" required />
+        <label for="pais">Pais: </label>
+        <select name="pais" id="pais">
+          <option value="Argentina">Argentina</option>
+          <option value="Chile">Chile</option>
+          <option value="Bolivia">Bolivia</option>
+          <option value="Perú">Perú</option>
+          <option value="Uruguay">Uruguay</option>
+          <option value="España">España</option>
+          <option value="Colombia">Colombia</option>
+          <option value="Venezuela">Venezuela</option>
+          <option value="Paraguay">Paraguay</option>
+          <option value="Ecuador">Ecuador</option>
+        </select>
+        <label for="comentario">
+          <textarea name="comentario" id="comentario"></textarea>
+        </label>
+        <label for="motivo">Motivo Contacto</label>
+        <input type="radio" id="motivo" name="motivo" /><i>Soy fan</i>
+        <input type="radio" id="motivo" name="motivo" /><i>Comerciales</i>
+        <input type="radio" id="motivo" name="motivo" /><i>Reclamos</i>
+        <input type="submit" value="Enviar" />
+      </form>
+    </div>
+    <hr />
+    <footer class="footer">
+      <p>Derechos reservados &copy; 2024</p>
+    </footer>
+  </body>
+</html>
