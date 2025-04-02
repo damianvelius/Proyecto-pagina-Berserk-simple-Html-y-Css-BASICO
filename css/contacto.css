@@ -1,6 +1,6 @@
 body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
-    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande',
+    'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: rgb(150, 114, 114);
   padding: 0;
   margin: 0;
@@ -50,8 +50,8 @@ h1 {
   color: rgb(129, 35, 35);
 }
 
-input[type="text"],
-input[type="email"],
+input[type='text'],
+input[type='email'],
 textarea,
 select {
   width: 100%;
@@ -63,7 +63,7 @@ select {
   box-sizing: border-box;
 }
 
-input[type="submit"] {
+input[type='submit'] {
   width: 100%;
   background-color: #111;
   color: rgb(129, 35, 35);
@@ -74,7 +74,7 @@ input[type="submit"] {
   cursor: pointer;
 }
 
-input[type="submit"]:hover {
+input[type='submit']:hover {
   background-color: rgb(129, 35, 35);
   color: #111;
 }
@@ -86,11 +86,11 @@ div.contenedor-formulario {
 }
 
 .footer {
-  background-color: #333;
-  color: #fff;
-  padding: 10px;
+  background-color: #111;
+  color: rgb(129, 35, 35);
+  padding: 20px;
   text-align: center;
-  clear: both;
+  font-size: 18px;
 }
 
 hr {
